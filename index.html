@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio profesional de Alfonso Bercedo Núñez, estudiante de Desarrollo de Aplicaciones Multiplataforma y Entrenador. Apasionado por la programación y la educación." />
+  <meta name="author" content="Alfonso Bercedo Núñez" />
+  <meta name="keywords" content="portfolio, DAM, Java, HTML, CSS, SQL, desarrollador, Alfonso Bercedo Núñez, entrenador" />
+  <title>Alfonso Bercedo Núñez — Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <header>
+    <aside class="social-float" aria-label="Redes sociales">
+      <a href="https://github.com/" target="_blank" rel="noopener noreferrer" aria-label="GitHub de Alfonso Bercedo" class="social-float-link">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="20" height="20" aria-hidden="true">
+          <path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61-.546-1.385-1.335-1.755-1.335-1.755-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 21.795 24 17.295 24 12c0-6.63-5.37-12-12-12z"/>
+        </svg>
+      </a>
+      <div class="social-float-line" aria-hidden="true"></div>
+      <a href="https://www.linkedin.com/in/alfonso-bercedo-n%C3%BA%C3%B1ez-b03240350/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn de Alfonso Bercedo Núñez" class="social-float-link">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="20" height="20" aria-hidden="true">
+          <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+        </svg>
+      </a>
+    </aside>
+    <div class="nav-container">
+      <a href="#inicio" class="logo" aria-label="Inicio — Alfonso Bercedo Núñez">ABN<span class="dot">.</span></a>
+      <nav aria-label="Navegación principal">
+        <ul class="nav-links">
+          <li><a href="#sobre-mi">Sobre mí</a></li>
+          <li><a href="#cv">CV</a></li>
+          <li><a href="#proyectos">Proyectos</a></li>
+          <li><a href="#habilidades">Skills</a></li>
+          <li><a href="#contacto" class="nav-cta">Contacto</a></li>
+        </ul>
+      </nav>
+      <button class="hamburger" aria-label="Abrir menú" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ========== HERO ========== -->
+    <section id="inicio" class="hero">
+      <div class="hero-bg" aria-hidden="true">
+        <div class="grid-overlay"></div>
+        <div class="glow-orb orb-1"></div>
+        <div class="glow-orb orb-2"></div>
+      </div>
+
+      <div class="hero-content">
+        <p class="hero-tag">
+          <span class="tag-dot"></span>
+          DAM · Ciberseguridad · Educación
+        </p>
+
+        <div class="hero-name-block">
+          <span class="hero-firstname">Alfonso</span>
+          <span class="hero-lastname">Bercedo Núñez</span>
+        </div>
+
+        <p class="hero-role">
+          Desarrollador de Aplicaciones Multiplataforma
+          <span class="role-sep" aria-hidden="true">/</span>
+          Entrenador y Educador
+        </p>
+
+        <div class="hero-actions">
+          <a href="#cv" class="btn-primary">Ver Perfil</a>
+          <a href="#contacto" class="btn-ghost">Contactar</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== SOBRE MÍ ========== -->
+    <section id="sobre-mi">
+      <div class="container section-grid">
+        <div class="section-label">
+          <span class="label-number">01</span>
+          <span class="label-text">Sobre mí</span>
+        </div>
+        <div class="section-body">
+          <h2 class="section-title">Quién soy</h2>
+          <p class="lead-text">
+            Soy una persona trabajadora, organizada y responsable. Me adapto con facilidad a nuevos 
+            entornos y aplico siempre un enfoque orientado a la mejora continua y al aprendizaje constante.
+          </p>
+          <p>
+            Tengo experiencia como desarrollador de aplicaciones multiplataforma, combinada con un sólido 
+            recorrido en el área de la educación y formación. En mi faceta como instructor, trabajo diseñando 
+            planes de entrenamiento personalizados y metodologías estructuradas para potenciar el rendimiento y el 
+            aprendizaje de los jóvenes.
+          </p>
+          <p>
+            Mi doble perspectiva tecnológica y educativa me ha permitido desarrollar habilidades avanzadas 
+            en planificación, análisis, resolución de problemas y trabajo en equipo, las cuales aplico día a 
+            día tanto en el código como en la pista.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== CURRÍCULUM ========== -->
+    <section id="cv">
+      <div class="container section-grid">
+        <div class="section-label">
+          <span class="label-number">02</span>
+          <span class="label-text">Currículum</span>
+        </div>
+        <div class="section-body">
+          <h2 class="section-title">Formación &amp; Experiencia</h2>
+
+          <div class="cv-block">
+            <h3 class="cv-block-title">Formación académica</h3>
+            <div class="timeline">
+              <article class="timeline-item">
+                <div class="tl-dot" aria-hidden="true"></div>
+                <div class="tl-content">
+                  <span class="tl-date">2025 — 2027</span>
+                  <h4>Grado Superior de Desarrollo de Aplicaciones Multiplataforma (DAM)</h4>
+                  <p>Formación técnica en programación orientada a objetos, desarrollo web, diseño de interfaces y gestión integral de bases de datos.</p>
+                </div>
+              </article>
+              <article class="timeline-item">
+                <div class="tl-dot" aria-hidden="true"></div>
+                <div class="tl-content">
+                  <span class="tl-date">2025 — 2026</span>
+                  <h4>Máster de Ciberseguridad</h4>
+                  <p>Especialización en la protección de sistemas de información, redes y metodologías de seguridad aplicadas.</p>
+                </div>
+              </article>
+              <article class="timeline-item">
+                <div class="tl-dot" aria-hidden="true"></div>
+                <div class="tl-content">
+                  <span class="tl-date">2026</span>
+                  <h4>Curso sobre la IA</h4>
+                  <p>Estudio de los fundamentos de la Inteligencia Artificial y su integración en soluciones de software.</p>
+                </div>
+              </article>
+              <article class="timeline-item">
+                <div class="tl-dot" aria-hidden="true"></div>
+                <div class="tl-content">
+                  <span class="tl-date">2023 — 2025</span>
+                  <h4>Bachillerato de Ciencias Tecnológicas</h4>
+                  <p>Bases sólidas en matemáticas, física y tecnología estructural.</p>
+                </div>
+              </article>
+            </div>
+          </div>
+
+          <div class="cv-block">
+            <h3 class="cv-block-title">Experiencia laboral</h3>
+            <div class="timeline">
+              <article class="timeline-item">
+                <div class="tl-dot" aria-hidden="true"></div>
+                <div class="tl-content">
+                  <span class="tl-date">2025 — 2026</span>
+                  <h4>Entrenador de Hockey</h4>
+                  <p>Coordinación y liderazgo de equipos, fomentando la comunicación efectiva y la colaboración. Adaptación de metodologías según las necesidades del grupo y análisis de resultados para optimizar procesos y rendimiento colectivo.</p>
+                </div>
+              </article>
+              <article class="timeline-item">
+                <div class="tl-dot" aria-hidden="true"></div>
+                <div class="tl-content">
+                  <span class="tl-date">2025 — 2026</span>
+                  <h4>Profesor de Patinaje</h4>
+                  <p>Identificación de oportunidades de mejora en procesos de aprendizaje. Diseño e implementación de planes de entrenamiento personalizados, utilizando un enfoque analítico y adaptable similar al desarrollo de soluciones de software.</p>
+                </div>
+              </article>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== PROYECTOS ========== -->
+    <section id="proyectos">
+      <div class="container section-grid">
+        <div class="section-label">
+          <span class="label-number">03</span>
+          <span class="label-text">Proyectos</span>
+        </div>
+        <div class="section-body">
+          <h2 class="section-title">Proyectos destacados</h2>
+          <div class="projects-grid">
+
+            <article class="project-card project-card--featured">
+              <div class="project-img project-img--1" aria-hidden="true">
+                <span class="project-icon">☕</span>
+              </div>
+              <div class="project-info">
+                <span class="project-tag project-tag--real">Académico</span>
+                <span class="project-tech">Java · JDBC · MySQL</span>
+                <h3>Gestión de Bases de Datos con Java</h3>
+                <p>Desarrollo de aplicaciones de consola y escritorio integradas con bases de datos MySQL utilizando JDBC, gestionando operaciones de acceso y estructuras lógicas de datos de manera robusta.</p>
+                <div class="project-links">
+                  <a href="#" aria-label="Ver repositorio" target="_blank">Ver Detalles →</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <div class="project-img project-img--3" aria-hidden="true">
+                <span class="project-icon">🌐</span>
+              </div>
+              <div class="project-info">
+                <span class="project-tag">Proyecto Real</span>
+                <span class="project-tech">HTML · CSS</span>
+                <h3>Portfolio Web</h3>
+                <p>Construcción de este espacio personal empleando semántica HTML y un dominio avanzado de estilos CSS (incluyendo metodologías de diseño y responsive design).</p>
+                <div class="project-links">
+                  <a href="#" aria-label="Ver código del portfolio" target="_blank">GitHub →</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <div class="project-img project-img--4" aria-hidden="true">
+                <span class="project-icon">🔌</span>
+              </div>
+              <div class="project-info">
+                <span class="project-tag">Académico</span>
+                <span class="project-tech">Sistemas · Redes</span>
+                <h3>Topología de Redes y Subnetting</h3>
+                <p>Diseño y configuración de esquemas de red y resolución práctica de ejercicios avanzados de subnetting como parte de la formación en Sistemas Informáticos.</p>
+                <div class="project-links">
+                  <a href="#" aria-label="Ver recursos" target="_blank">Ver Detalles →</a>
+                </div>
+              </div>
+            </article>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== HABILIDADES ========== -->
+    <section id="habilidades">
+      <div class="container section-grid">
+        <div class="section-label">
+          <span class="label-number">04</span>
+          <span class="label-text">Skills</span>
+        </div>
+        <div class="section-body">
+          <h2 class="section-title">Habilidades &amp; Herramientas</h2>
+
+          <div class="skills-layout">
+
+            <div class="skills-group">
+              <h3 class="skills-group-title">Tecnologías Principales</h3>
+              <div class="skill-pills">
+                <span class="pill pill--accent">Programación en Java</span>
+                <span class="pill pill--accent">Gestión de BBDD SQL</span>
+                <span class="pill">Desarrollo Web con HTML</span>
+                <span class="pill">Dominio de CSS</span>
+                <span class="pill">Control de versiones Git/GitHub</span>
+              </div>
+            </div>
+
+            <div class="skills-group">
+              <h3 class="skills-group-title">Idiomas</h3>
+              <div class="lang-bars">
+                <div class="lang-item">
+                  <div class="lang-header">
+                    <span>Español</span><span class="lang-level">Nativo</span>
+                  </div>
+                  <div class="lang-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                    <div class="lang-fill" style="--fill: 100%"></div>
+                  </div>
+                </div>
+                <div class="lang-item">
+                  <div class="lang-header">
+                    <span>Inglés</span><span class="lang-level">Avanzado</span>
+                  </div>
+                  <div class="lang-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                    <div class="lang-fill" style="--fill: 80%"></div>
+                  </div>
+                </div>
+                <div class="lang-item">
+                  <div class="lang-header">
+                    <span>Francés</span><span class="lang-level">Básico</span>
+                  </div>
+                  <div class="lang-bar" role="progressbar" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100">
+                    <div class="lang-fill" style="--fill: 35%"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="skills-group skills-group--full">
+              <h3 class="skills-group-title">Competencias Transversales</h3>
+              <div class="skill-pills">
+                <span class="pill">Liderazgo</span>
+                <span class="pill">Trabajo en equipo</span>
+                <span class="pill">Resolutivo</span>
+                <span class="pill">Resiliente</span>
+                <span class="pill">Creatividad e innovación</span>
+                <span class="pill">Disciplinado</span>
+                <span class="pill">Aprendizaje continuo</span>
+                <span class="pill">Redacción de contenido</span>
+                <span class="pill">Gestión de redes sociales</span>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== CONTACTO ========== -->
+    <section id="contacto">
+      <div class="container section-grid">
+        <div class="section-label">
+          <span class="label-number">05</span>
+          <span class="label-text">Contacto</span>
+        </div>
+        <div class="section-body">
+          <h2 class="section-title">Hablemos</h2>
+          <p class="lead-text">
+            Si buscas perfiles resolutivos, orientados al aprendizaje continuo y con capacidad para 
+            gestionar tanto sistemas informáticos como equipos de trabajo, escríbeme y te respondo enseguida.
+          </p>
+          <div class="contact-chips" aria-label="Datos de contacto">
+            <div class="contact-chip">
+              <span class="chip-label">Email</span>
+              <a class="chip-value" href="mailto:alfonsobenzz7@gmail.com">alfonsobenzz7@gmail.com</a>
+            </div>
+            <div class="contact-chip">
+              <span class="chip-label">Teléfono</span>
+              <a class="chip-value" href="tel:+34610219322">+34 610 21 93 22</a>
+            </div>
+            <div class="contact-chip">
+              <span class="chip-label">LinkedIn</span>
+              <a class="chip-value" href="https://www.linkedin.com/in/alfonso-bercedo-n%C3%BA%C3%B1ez-b03240350/" target="_blank" rel="noopener">Alfonso Bercedo Núñez</a>
+            </div>
+          </div>
+
+          <form action="https://formsubmit.co/alfonsobenzz7@gmail.com" method="POST" class="contact-form" novalidate>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" autocomplete="name" />
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="tu@email.com" autocomplete="email" />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="mensaje">Mensaje</label>
+              <textarea id="mensaje" name="mensaje" rows="5" placeholder="Cuéntame en qué puedo ayudarte..."></textarea>
+            </div>
+            <button type="submit" class="btn-primary" id="submit-btn">
+              <span class="btn-text">Enviar mensaje</span>
+              <span class="btn-sending" style="display:none">Enviando...</span>
+            </button>
+          </form>
+
+          <div id="form-success" class="form-success" role="alert" aria-live="polite" style="display:none">
+            ¡Mensaje enviado! Te respondo lo antes posible.
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <p class="footer-copy">&copy; 2026 Alfonso Bercedo Núñez. Todos los derechos reservados.</p>
+      <nav aria-label="Redes sociales">
+        <ul class="social-links">
+          <li><a href="https://github.com/" target="_blank" aria-label="GitHub">GitHub</a></li>
+          <li><a href="https://www.linkedin.com/in/alfonso-bercedo-n%C3%BA%C3%B1ez-b03240350/" target="_blank" aria-label="LinkedIn">LinkedIn</a></li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+
+  <script>
+    const hamburger = document.querySelector('.hamburger');
+    const navLinks  = document.querySelector('.nav-links');
+    hamburger.addEventListener('click', () => {
+      const expanded = hamburger.getAttribute('aria-expanded') === 'true';
+      hamburger.setAttribute('aria-expanded', String(!expanded));
+      navLinks.classList.toggle('nav-open');
+    });
+    navLinks.querySelectorAll('a').forEach(a => {
+      a.addEventListener('click', () => {
+        navLinks.classList.remove('nav-open');
+        hamburger.setAttribute('aria-expanded', 'false');
+      });
+    });
+
+    const sections = document.querySelectorAll('section[id]');
+    const navItems  = document.querySelectorAll('.nav-links a');
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach(e => {
+        if (e.isIntersecting) {
+          navItems.forEach(a => a.classList.remove('active'));
+          const link = document.querySelector(`.nav-links a[href="#${e.target.id}"]`);
+          if (link) link.classList.add('active');
+        }
+      });
+    }, { threshold: 0.35 });
+    sections.forEach(s => io.observe(s));
+
+    const header = document.querySelector('header');
+    window.addEventListener('scroll', () => {
+      header.classList.toggle('scrolled', window.scrollY > 40);
+    }, { passive: true });
+
+    const contactForm = document.querySelector('.contact-form');
+    if (contactForm) {
+      contactForm.addEventListener('submit', function (e) {
+        const btn      = document.getElementById('submit-btn');
+        const btnText  = btn.querySelector('.btn-text');
+        const btnSend  = btn.querySelector('.btn-sending');
+
+        if(btnText && btnSend){
+            btnText.style.display = 'none';
+            btnSend.style.display = 'inline';
+            btn.disabled = true;
+        }
+      });
+
+      if (new URLSearchParams(window.location.search).get('sent') === '1') {
+        const successDiv = document.getElementById('form-success');
+        if (successDiv) {
+          successDiv.style.display = 'block';
+          contactForm.style.display = 'none';
+        }
+      }
+    }
+  </script>
+
+</body>
+</html>
